@@ -4,14 +4,85 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JRcMwmkAMgOGf-FB0tuO-3" edge="1" parent="1" source="JRcMwmkAMgOGf-FB0tuO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JRcMwmkAMgOGf-FB0tuO-2">
+        <mxCell id="a0pDtla_rdijHMdVIazc-14" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="408.5" y="210" />
+              <mxPoint x="580" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-15" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="408.5" y="210" />
+              <mxPoint x="250" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#333333;" value="Internet" vertex="1">
+          <mxGeometry height="160" width="270" x="260" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-7" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JRcMwmkAMgOGf-FB0tuO-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="50" y="160" as="geometry" />
+        <mxCell id="a0pDtla_rdijHMdVIazc-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#dae8fc;strokeColor=none;shadow=1;" value="路由器" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="JRcMwmkAMgOGf-FB0tuO-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="测试" vertex="1">
-          <mxGeometry height="60" width="120" x="354" y="170" as="geometry" />
+        <mxCell id="a0pDtla_rdijHMdVIazc-8" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#dae8fc;strokeColor=none;shadow=1;" value="路由器" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-16" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="分流交换机" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="分流交换机" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-19" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="590" />
+              <mxPoint x="250" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-20" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="610" />
+              <mxPoint x="580" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" value="DNS防护服务器集群" vertex="1">
+          <mxGeometry height="130" width="450" x="190" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-9" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.133;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-10" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.868;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=none;shadow=1;" value="DNS防护服务器" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=none;shadow=1;" value="DNS防护服务器" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=none;shadow=1;" value="DNS防护服务器" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="接入交换机" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="接入交换机" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
