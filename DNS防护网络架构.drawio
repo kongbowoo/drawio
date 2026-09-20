@@ -20,7 +20,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a0pDtla_rdijHMdVIazc-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#333333;" value="Internet" vertex="1">
+        <mxCell id="a0pDtla_rdijHMdVIazc-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;shadow=1;" value="Internet" vertex="1">
           <mxGeometry height="160" width="270" x="260" y="30" as="geometry" />
         </mxCell>
         <mxCell id="a0pDtla_rdijHMdVIazc-7" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-4">
@@ -35,7 +35,7 @@
         <mxCell id="a0pDtla_rdijHMdVIazc-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#dae8fc;strokeColor=none;shadow=1;" value="路由器" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="a0pDtla_rdijHMdVIazc-16" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-5">
+        <mxCell id="a0pDtla_rdijHMdVIazc-16" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1.5;strokeColor=#333333;startArrow=classic;startFill=1;" target="a0pDtla_rdijHMdVIazc-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a0pDtla_rdijHMdVIazc-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="分流交换机" vertex="1">
@@ -60,7 +60,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a0pDtla_rdijHMdVIazc-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" value="DNS防护服务器集群" vertex="1">
+        <mxCell id="a0pDtla_rdijHMdVIazc-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=default;dashed=1;" value="DNS防护服务器集群" vertex="1">
           <mxGeometry height="130" width="450" x="190" y="450" as="geometry" />
         </mxCell>
         <mxCell id="a0pDtla_rdijHMdVIazc-9" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.133;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1.5;strokeColor=#333333;" target="a0pDtla_rdijHMdVIazc-6">
@@ -78,11 +78,32 @@
         <mxCell id="a0pDtla_rdijHMdVIazc-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#fff2cc;strokeColor=none;shadow=1;" value="DNS防护服务器" vertex="1">
           <mxGeometry height="60" width="120" x="500" y="485" as="geometry" />
         </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-29" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;strokeWidth=1.5;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" target="a0pDtla_rdijHMdVIazc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a0pDtla_rdijHMdVIazc-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="接入交换机" vertex="1">
           <mxGeometry height="60" width="120" x="190" y="630" as="geometry" />
         </mxCell>
         <mxCell id="a0pDtla_rdijHMdVIazc-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=none;shadow=1;" value="接入交换机" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=1.5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=default;dashed=1;" value="DNS服务器集群" vertex="1">
+          <mxGeometry height="130" width="450" x="190" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-24" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.application;network2IconXOffset=0.0048;network2IconYOffset=-0.0000;network2IconW=0.5927;network2IconH=1.02;rounded=0;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="DNS服务器" vertex="1">
+          <mxGeometry height="51" width="29.635" x="235.18" y="779.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-25" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.application;network2IconXOffset=0.0048;network2IconYOffset=-0.0000;network2IconW=0.5927;network2IconH=1.02;rounded=0;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="DNS服务器" vertex="1">
+          <mxGeometry height="51" width="29.635" x="400.18" y="779.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-26" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.application;network2IconXOffset=0.0048;network2IconYOffset=-0.0000;network2IconW=0.5927;network2IconH=1.02;rounded=0;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="DNS服务器" vertex="1">
+          <mxGeometry height="51" width="29.635" x="565" y="779.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-27" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.134;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=1.5;" target="a0pDtla_rdijHMdVIazc-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0pDtla_rdijHMdVIazc-28" edge="1" parent="1" source="a0pDtla_rdijHMdVIazc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.867;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeWidth=1.5;" target="a0pDtla_rdijHMdVIazc-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
