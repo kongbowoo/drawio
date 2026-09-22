@@ -134,35 +134,38 @@
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;shadow=1;" value="Hardware" vertex="1">
           <mxGeometry height="40" width="450" x="170" y="445" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="OS" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontColor=#333333;" value="OS" vertex="1">
           <mxGeometry height="40" width="450" x="170" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="DPDK" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;fontColor=#333333;" value="DPDK" vertex="1">
           <mxGeometry height="40" width="450" x="170" y="345" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" value="DNS Protection System" vertex="1">
-          <mxGeometry height="310" width="450" x="170" y="25" as="geometry" />
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="DNS Protection System" vertex="1">
+          <mxGeometry height="265" width="450" x="170" y="73" as="geometry" />
         </mxCell>
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Control Plane" vertex="1">
-          <mxGeometry height="270" width="190" x="180" y="55" as="geometry" />
+          <mxGeometry height="217.5" width="170" x="180" y="103" as="geometry" />
         </mxCell>
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Forward Plane" vertex="1">
-          <mxGeometry height="270" width="230" x="380" y="55" as="geometry" />
+          <mxGeometry height="217.5" width="250" x="360" y="103" as="geometry" />
         </mxCell>
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Web" vertex="1">
-          <mxGeometry height="40" width="120" x="215" y="85" as="geometry" />
+          <mxGeometry height="40" width="120" x="200" y="133" as="geometry" />
         </mxCell>
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Restful API" vertex="1">
-          <mxGeometry height="40" width="120" x="215" y="145" as="geometry" />
+          <mxGeometry height="40" width="120" x="200" y="193" as="geometry" />
         </mxCell>
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Syslog" vertex="1">
-          <mxGeometry height="40" width="120" x="215" y="205" as="geometry" />
+          <mxGeometry height="40" width="120" x="200" y="253" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Detect Engine" vertex="1">
-          <mxGeometry height="80" width="200" x="390" y="85" as="geometry" />
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Detect Engine" vertex="1">
+          <mxGeometry height="40" width="230" x="370" y="133" as="geometry" />
         </mxCell>
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Clean Engine" vertex="1">
-          <mxGeometry height="105" width="200" x="390" y="180" as="geometry" />
+          <mxGeometry height="40" width="230" x="370" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="NuCvJPYygu0kC0rT2tWr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Geo-IP Engine" vertex="1">
+          <mxGeometry height="40" width="230" x="370" y="253" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
