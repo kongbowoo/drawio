@@ -149,22 +149,22 @@
         <mxCell id="X81ZIFB_Q-x-ba0WYyrG-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Forward Plane" vertex="1">
           <mxGeometry height="217.5" width="250" x="360" y="103" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Web" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="Web" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="133" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Restful API" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="Restful API" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="193" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Syslog" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="Syslog" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="253" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" value="Detect Engine" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="Detect Engine" vertex="1">
           <mxGeometry height="40" width="230" x="370" y="133" as="geometry" />
         </mxCell>
-        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Clean Engine" vertex="1">
+        <mxCell id="X81ZIFB_Q-x-ba0WYyrG-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="Clean Engine" vertex="1">
           <mxGeometry height="40" width="230" x="370" y="193" as="geometry" />
         </mxCell>
-        <mxCell id="NuCvJPYygu0kC0rT2tWr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Geo-IP Engine" vertex="1">
+        <mxCell id="NuCvJPYygu0kC0rT2tWr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="Geo-IP Engine" vertex="1">
           <mxGeometry height="40" width="230" x="370" y="253" as="geometry" />
         </mxCell>
       </root>
