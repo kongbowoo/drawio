@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" pages="6">
   <diagram name="网络架构" id="4Hh9fZYmSlKO_FYPEMPB">
     <mxGraphModel dx="1233" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -388,7 +388,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5HIMqcdisIpxw_6QkylD" name="消息交互">
-    <mxGraphModel dx="986" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -493,6 +493,90 @@
             <mxPoint x="-72" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6PcKt_yjKSXu-sRFGUzj" name="DNS被动防御">
+    <mxGraphModel dx="986" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-11" edge="1" parent="1" source="37R5k_sRjwbgL0OSfm_m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.39" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-6" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.terminal;network2IconW=0.8554;network2IconH=1;" value="攻击者" vertex="1">
+          <mxGeometry height="50" width="42.77" x="98" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-12" edge="1" parent="1" source="37R5k_sRjwbgL0OSfm_m-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.3" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-7" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.user_male;network2IconW=0.8918;network2IconH=1.0003;" value="正常用户" vertex="1">
+          <mxGeometry height="50.015" width="44.59" x="297" y="289.9925" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-14" edge="1" parent="1" source="37R5k_sRjwbgL0OSfm_m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="718.33" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-8" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.desktop_pc;network2IconXOffset=-0.0034;network2IconYOffset=0.00035;network2IconW=0.453;network2IconH=0.9995;" value="DNS服务器" vertex="1">
+          <mxGeometry height="49.975" width="22.650000000000002" x="707" y="290.0125" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-13" edge="1" parent="1" source="37R5k_sRjwbgL0OSfm_m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.82" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-9" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.application;network2IconXOffset=0.0048;network2IconYOffset=-0.0000;network2IconW=0.5927;network2IconH=1.02;" value="DNS防护设备" vertex="1">
+          <mxGeometry height="51" width="29.635" x="505" y="289.5" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="372" as="sourcePoint" />
+            <mxPoint x="520" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="388" as="sourcePoint" />
+            <mxPoint x="520" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="119.30000000000001" y="404" as="sourcePoint" />
+            <mxPoint x="519.3" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="319.82" y="470" as="sourcePoint" />
+            <mxPoint x="520" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <mxPoint x="720" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="119.30000000000001" y="419" as="sourcePoint" />
+            <mxPoint x="519.3" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VCQQw6ZoLOm2SoQYlTxt" name="第 6 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
