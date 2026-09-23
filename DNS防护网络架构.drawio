@@ -789,6 +789,63 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-10" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="oos16LMvUHsG1CFW9ZEN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-11" connectable="0" parent="oos16LMvUHsG1CFW9ZEN-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Y" vertex="1">
+          <mxGeometry relative="1" x="0.175" y="8" as="geometry">
+            <mxPoint x="-8" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-16" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="oos16LMvUHsG1CFW9ZEN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-17" connectable="0" parent="oos16LMvUHsG1CFW9ZEN-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.1111" y="-2" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-1" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="随机子域名？" vertex="1">
+          <mxGeometry height="50" width="110" x="120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" value="丢弃或源认证" vertex="1">
+          <mxGeometry height="40" width="120" x="115" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-8" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="oos16LMvUHsG1CFW9ZEN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="DNS请求报文" vertex="1">
+          <mxGeometry height="40" width="120" x="115" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-9" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="提取子域名" vertex="1">
+          <mxGeometry height="40" width="120" x="115" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-12" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="oos16LMvUHsG1CFW9ZEN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-13" connectable="0" parent="oos16LMvUHsG1CFW9ZEN-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.2308" y="3" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-7" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="域名白名单？" vertex="1">
+          <mxGeometry height="50" width="110" x="120" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="放行" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="子域名分析" vertex="1">
+          <mxGeometry height="40" width="120" x="115" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-21" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-6" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="270" as="sourcePoint" />
+            <mxPoint x="90" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
