@@ -533,28 +533,38 @@
         <mxCell id="37R5k_sRjwbgL0OSfm_m-9" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;network2Icon=mxgraph.networks2.application;network2IconXOffset=0.0048;network2IconYOffset=-0.0000;network2IconW=0.5927;network2IconH=1.02;" value="DNS防护设备" vertex="1">
           <mxGeometry height="51" width="29.635" x="505" y="289.5" as="geometry" />
         </mxCell>
-        <mxCell id="37R5k_sRjwbgL0OSfm_m-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#CC0000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="120" y="372" as="sourcePoint" />
             <mxPoint x="520" y="372" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="37R5k_sRjwbgL0OSfm_m-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-32" connectable="0" parent="37R5k_sRjwbgL0OSfm_m-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="DNS请求攻击" vertex="1">
+          <mxGeometry relative="1" x="0.3" y="-3" as="geometry">
+            <mxPoint x="-160" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#CC0000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="120" y="388" as="sourcePoint" />
             <mxPoint x="520" y="388" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="37R5k_sRjwbgL0OSfm_m-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#CC0000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="119.30000000000001" y="404" as="sourcePoint" />
             <mxPoint x="519.3" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="37R5k_sRjwbgL0OSfm_m-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#4D9900;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="319.82" y="470" as="sourcePoint" />
             <mxPoint x="520" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-24" connectable="0" parent="37R5k_sRjwbgL0OSfm_m-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="DNS请求" vertex="1">
+          <mxGeometry relative="1" x="0.3506" y="3" as="geometry">
+            <mxPoint x="-41" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="37R5k_sRjwbgL0OSfm_m-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
@@ -563,11 +573,34 @@
             <mxPoint x="720" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="37R5k_sRjwbgL0OSfm_m-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-25" connectable="0" parent="37R5k_sRjwbgL0OSfm_m-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="DNS请求" vertex="1">
+          <mxGeometry relative="1" x="0.26" y="3" as="geometry">
+            <mxPoint x="-158" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#CC0000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="119.30000000000001" y="419" as="sourcePoint" />
             <mxPoint x="519.3" y="419" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="DNS请求攻击" vertex="1">
+          <mxGeometry height="30" width="100" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="未匹配请求间隔丢弃" vertex="1">
+          <mxGeometry height="30" width="130" x="700" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="首个请求丢弃" vertex="1">
+          <mxGeometry height="30" width="100" x="513" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="未匹配请求间隔丢弃" vertex="1">
+          <mxGeometry height="30" width="130" x="515" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="首个请求丢弃" vertex="1">
+          <mxGeometry height="30" width="100" x="513" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="37R5k_sRjwbgL0OSfm_m-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="匹配请求间隔放行" vertex="1">
+          <mxGeometry height="30" width="120" x="515" y="494" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
