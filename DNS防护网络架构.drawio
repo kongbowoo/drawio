@@ -784,8 +784,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FiJDOX7rRHaf8i7zufuQ" name="随机子域名过滤">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="FiJDOX7rRHaf8i7zufuQ" name="随机子域名检查">
+    <mxGraphModel dx="986" dy="1869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -807,7 +807,7 @@
             <mxPoint x="-5" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oos16LMvUHsG1CFW9ZEN-1" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="异常随机字符串？" vertex="1">
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-1" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="异常子域名？" vertex="1">
           <mxGeometry height="50" width="110" x="120" y="392" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" value="丢弃或源认证" vertex="1">
@@ -817,13 +817,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="DNS请求报文" vertex="1">
-          <mxGeometry height="40" width="120" x="115" y="63" as="geometry" />
+          <mxGeometry height="40" width="120" x="115" y="-31" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-9" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="提取域名" vertex="1">
-          <mxGeometry height="40" width="120" x="115" y="147" as="geometry" />
+          <mxGeometry height="40" width="120" x="115" y="53" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="放行" vertex="1">
           <mxGeometry height="40" width="120" x="320" y="397" as="geometry" />
@@ -842,10 +842,15 @@
             <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oos16LMvUHsG1CFW9ZEN-23" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-6" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-22" value="">
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-23" edge="1" parent="1" source="FCzK5HDMz1nih_UBpd09-1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-22" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="175" y="198" as="sourcePoint" />
             <mxPoint x="175" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCzK5HDMz1nih_UBpd09-3" connectable="0" parent="oos16LMvUHsG1CFW9ZEN-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.0233" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-26" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="oos16LMvUHsG1CFW9ZEN-25">
@@ -856,11 +861,31 @@
             <mxPoint y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oos16LMvUHsG1CFW9ZEN-22" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="FQDN白名单？" vertex="1">
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-22" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="FQDN静态白名单？" vertex="1">
           <mxGeometry height="50" width="110" x="120" y="222" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="放行" vertex="1">
           <mxGeometry height="40" width="120" x="320" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="FCzK5HDMz1nih_UBpd09-2" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-6" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FCzK5HDMz1nih_UBpd09-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="175" y="93" as="sourcePoint" />
+            <mxPoint x="175" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCzK5HDMz1nih_UBpd09-5" edge="1" parent="1" source="FCzK5HDMz1nih_UBpd09-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="FCzK5HDMz1nih_UBpd09-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCzK5HDMz1nih_UBpd09-6" connectable="0" parent="FCzK5HDMz1nih_UBpd09-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Y" vertex="1">
+          <mxGeometry relative="1" x="-0.0222" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCzK5HDMz1nih_UBpd09-1" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="FQDN动态白名单？" vertex="1">
+          <mxGeometry height="50" width="110" x="120" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="FCzK5HDMz1nih_UBpd09-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="放行" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
