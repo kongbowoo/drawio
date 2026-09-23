@@ -825,16 +825,21 @@
         <mxCell id="oos16LMvUHsG1CFW9ZEN-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="提取域名" vertex="1">
           <mxGeometry height="40" width="120" x="115" y="147" as="geometry" />
         </mxCell>
-        <mxCell id="oos16LMvUHsG1CFW9ZEN-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="放行" vertex="1">
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="放行" vertex="1">
           <mxGeometry height="40" width="120" x="320" y="397" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="子域名检测" vertex="1">
-          <mxGeometry height="40" width="120" x="115" y="309" as="geometry" />
+          <mxGeometry height="40" width="120" x="115" y="312" as="geometry" />
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-21" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-22" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-20" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="40" y="270" as="sourcePoint" />
             <mxPoint x="90" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-28" connectable="0" parent="oos16LMvUHsG1CFW9ZEN-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.1892" y="2" as="geometry">
+            <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oos16LMvUHsG1CFW9ZEN-23" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-6" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="oos16LMvUHsG1CFW9ZEN-22" value="">
@@ -843,11 +848,19 @@
             <mxPoint x="175" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oos16LMvUHsG1CFW9ZEN-22" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="域名白名单？" vertex="1">
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-26" edge="1" parent="1" source="oos16LMvUHsG1CFW9ZEN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="oos16LMvUHsG1CFW9ZEN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-27" connectable="0" parent="oos16LMvUHsG1CFW9ZEN-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Y" vertex="1">
+          <mxGeometry relative="1" x="-0.1111" y="4" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-22" parent="1" style="rhombus;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="FQDN白名单？" vertex="1">
           <mxGeometry height="50" width="110" x="120" y="222" as="geometry" />
         </mxCell>
-        <mxCell id="oos16LMvUHsG1CFW9ZEN-24" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="已有域名" vertex="1">
-          <mxGeometry height="58" width="90" x="335" y="300" as="geometry" />
+        <mxCell id="oos16LMvUHsG1CFW9ZEN-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" value="放行" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="227" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
