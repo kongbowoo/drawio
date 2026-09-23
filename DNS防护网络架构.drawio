@@ -171,7 +171,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o0Kdi7wIeMaLO38jtWFN" name="报文处理流程">
-    <mxGraphModel dx="1643" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -345,7 +345,7 @@
         <mxCell id="huo4bCz6_V4hJF_2KuUm-72" edge="1" parent="1" source="huo4bCz6_V4hJF_2KuUm-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="huo4bCz6_V4hJF_2KuUm-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="huo4bCz6_V4hJF_2KuUm-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="TCP会话管理" vertex="1">
+        <mxCell id="huo4bCz6_V4hJF_2KuUm-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" value="TCP会话检查" vertex="1">
           <mxGeometry height="40" width="120" x="927" y="388" as="geometry" />
         </mxCell>
         <mxCell id="huo4bCz6_V4hJF_2KuUm-55" edge="1" parent="1" source="huo4bCz6_V4hJF_2KuUm-51" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="huo4bCz6_V4hJF_2KuUm-52" value="">
@@ -385,7 +385,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5HIMqcdisIpxw_6QkylD" name="消息交互">
-    <mxGraphModel dx="986" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,7 +446,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cr1d59njaL7LILoMpJNA-24" edge="1" parent="1" source="Cr1d59njaL7LILoMpJNA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;" target="Cr1d59njaL7LILoMpJNA-23" value="">
+        <mxCell id="Cr1d59njaL7LILoMpJNA-24" edge="1" parent="1" source="Cr1d59njaL7LILoMpJNA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=classic;startFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Cr1d59njaL7LILoMpJNA-23" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cr1d59njaL7LILoMpJNA-25" connectable="0" parent="Cr1d59njaL7LILoMpJNA-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="心跳" vertex="1">
@@ -454,10 +454,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cr1d59njaL7LILoMpJNA-28" edge="1" parent="1" source="Cr1d59njaL7LILoMpJNA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.75;exitY=0;exitDx=0;exitDy=0;curved=0;" target="Cr1d59njaL7LILoMpJNA-26">
+        <mxCell id="Cr1d59njaL7LILoMpJNA-28" edge="1" parent="1" source="Cr1d59njaL7LILoMpJNA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=0;" target="Cr1d59njaL7LILoMpJNA-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="200" />
+              <mxPoint x="370" y="200" />
               <mxPoint x="570" y="200" />
             </Array>
             <mxPoint x="400" y="200" as="sourcePoint" />
@@ -476,6 +476,19 @@
         </mxCell>
         <mxCell id="Cr1d59njaL7LILoMpJNA-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=none;shadow=1;" value="第三方系统" vertex="1">
           <mxGeometry height="60" width="120" x="510" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qehndCUYt27LP_Ul2lnu-6" edge="1" parent="1" source="Cr1d59njaL7LILoMpJNA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.75;exitY=1;exitDx=0;exitDy=0;curved=0;" target="Cr1d59njaL7LILoMpJNA-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="220" />
+              <mxPoint x="400" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qehndCUYt27LP_Ul2lnu-8" connectable="0" parent="qehndCUYt27LP_Ul2lnu-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Restful API" vertex="1">
+          <mxGeometry relative="1" x="-0.5704" y="-6" as="geometry">
+            <mxPoint x="-72" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
